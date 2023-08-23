@@ -9,10 +9,9 @@ export const Button = styled.button`
   font-size: 12px;
   cursor: pointer;
   background: linear-gradient(
-    225deg,
-    hsl(202.44deg 100% 46.85% / 87%),
-    hsl(109deg 100% 25% / 81%),
-    hsl(208deg 100% 48% / 83%)
+    267deg,
+    hsl(191.44deg 117.5% 49.95%),
+    hsl(133deg 100% 52.13% / 99%)
   );
   transition-duration: 1s;
 
