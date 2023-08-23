@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.js": "/easy-bank-landing-page/static/js/main.284a9599.js",
-    "static/js/787.dfa8b92b.chunk.js": "/easy-bank-landing-page/static/js/787.dfa8b92b.chunk.js",
+    "main.js": "/easy-bank-landing-page/static/js/main.9024ee69.js",
+    "static/js/787.e585794c.chunk.js": "/easy-bank-landing-page/static/js/787.e585794c.chunk.js",
     "static/media/logo.svg": "/easy-bank-landing-page/static/media/logo.4d7cebc59950e27d6f943b4c63129d81.svg",
+    "static/media/bg-intro-desktop.svg": "/easy-bank-landing-page/static/media/bg-intro-desktop.07b48e80bf8a0be3ea5e642de7bdcf73.svg",
     "index.html": "/easy-bank-landing-page/index.html",
-    "main.284a9599.js.map": "/easy-bank-landing-page/static/js/main.284a9599.js.map",
-    "787.dfa8b92b.chunk.js.map": "/easy-bank-landing-page/static/js/787.dfa8b92b.chunk.js.map"
+    "main.9024ee69.js.map": "/easy-bank-landing-page/static/js/main.9024ee69.js.map",
+    "787.e585794c.chunk.js.map": "/easy-bank-landing-page/static/js/787.e585794c.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.284a9599.js"
+    "static/js/main.9024ee69.js"
   ]
 }
