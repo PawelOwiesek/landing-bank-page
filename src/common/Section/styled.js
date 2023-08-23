@@ -1,7 +1,7 @@
 import { styled } from "styled-components";
 
 export const Container = styled.div`
-  background: linear-gradient(184deg, #8080800d, white);
+  background: linear-gradient(184deg, #ffffff0d, #fff);
   padding: 0 0 70px 100px;
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
