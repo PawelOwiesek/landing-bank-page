@@ -2,6 +2,7 @@ import { styled } from "styled-components";
 import { ReactComponent as bgIntro } from "./images/bg-intro-desktop.svg";
 
 export const Container = styled.div`
+  background: linear-gradient(184deg, #8080800d, white);
   display: grid;
   grid-template-columns: auto auto;
   background-color: ${({ theme }) => theme.color.LightGrayishBlue};
@@ -13,7 +14,7 @@ export const Content = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 130px;
+  margin-left: 100px;
   width: 400px;
 `;
 export const Title = styled.h1`
