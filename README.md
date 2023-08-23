@@ -1,5 +1,5 @@
 ## https://pawelowiesek.github.io/landing-bank-page/
-# Getting Started with Create React App
+
 ## Desktop Version
 <img src="public\images\Screenshot 2023-08-23 115937.png"/>
 
