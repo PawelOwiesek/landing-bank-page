@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/landing-bank-page/static/js/main.e69a3ffa.js",
+    "main.js": "/landing-bank-page/static/js/main.8bcc0dd5.js",
     "static/js/787.dfa8b92b.chunk.js": "/landing-bank-page/static/js/787.dfa8b92b.chunk.js",
     "static/media/image-currency.jpg": "/landing-bank-page/static/media/image-currency.1b385bf9f62bf25ef22d.jpg",
     "static/media/image-restaurant.jpg": "/landing-bank-page/static/media/image-restaurant.1951b57675babfd83c6c.jpg",
@@ -8,15 +8,20 @@
     "static/media/image-confetti.jpg": "/landing-bank-page/static/media/image-confetti.67921b1124297023a080.jpg",
     "static/media/icon-api.svg": "/landing-bank-page/static/media/icon-api.74c8ad1751bbd1e7f545e458f9306885.svg",
     "static/media/icon-onboarding.svg": "/landing-bank-page/static/media/icon-onboarding.d74aed6429619336a30e42334d6eb432.svg",
-    "static/media/logo.svg": "/landing-bank-page/static/media/logo.4d7cebc59950e27d6f943b4c63129d81.svg",
+    "static/media/logo.svg": "/landing-bank-page/static/media/logo.7f2a9e320a577110d90be0a75c22486c.svg",
     "static/media/icon-budgeting.svg": "/landing-bank-page/static/media/icon-budgeting.ad7169975ea1eda87072ea0325a8204a.svg",
     "static/media/bg-intro-desktop.svg": "/landing-bank-page/static/media/bg-intro-desktop.07b48e80bf8a0be3ea5e642de7bdcf73.svg",
     "static/media/icon-online.svg": "/landing-bank-page/static/media/icon-online.b0622b15741418e9efe3805d1b2ac26b.svg",
     "index.html": "/landing-bank-page/index.html",
-    "main.e69a3ffa.js.map": "/landing-bank-page/static/js/main.e69a3ffa.js.map",
+    "static/media/icon-instagram.svg": "/landing-bank-page/static/media/icon-instagram.54d3962efa2aa6085b776d1816557a6a.svg",
+    "static/media/icon-pinterest.svg": "/landing-bank-page/static/media/icon-pinterest.45264b1d1cdf7f0c420d573853779f7b.svg",
+    "static/media/icon-twitter.svg": "/landing-bank-page/static/media/icon-twitter.01a8907dd0beb126cff27d505c31be52.svg",
+    "static/media/icon-youtube.svg": "/landing-bank-page/static/media/icon-youtube.7d6960fbb0c4831f7c667012f0b102d2.svg",
+    "static/media/icon-facebook.svg": "/landing-bank-page/static/media/icon-facebook.1e9b33385e6dfe7a61acbff13373209c.svg",
+    "main.8bcc0dd5.js.map": "/landing-bank-page/static/js/main.8bcc0dd5.js.map",
     "787.dfa8b92b.chunk.js.map": "/landing-bank-page/static/js/787.dfa8b92b.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.e69a3ffa.js"
+    "static/js/main.8bcc0dd5.js"
   ]
 }
