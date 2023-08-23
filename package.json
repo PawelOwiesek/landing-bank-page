@@ -2,7 +2,7 @@
   "name": "easy-bank-landing-page",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://fikol171.github.io/easy-bank-landing-page/",
+  "homepage": "https://pawelowiesek.github.io/easy-bank-landing-page/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
