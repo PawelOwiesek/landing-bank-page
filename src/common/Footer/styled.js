@@ -11,6 +11,13 @@ export const Container = styled.div`
   display: grid;
   grid-template-columns: auto auto 1fr;
 
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    display: grid;
+    grid-template-columns: auto;
+    justify-items: center;
+    justify-content: space-around;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     display: flex;
     flex-direction: column;
@@ -22,6 +29,10 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
   margin: 50px 0 30px 100px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    margin: 30px 50px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     align-items: center;
@@ -35,7 +46,11 @@ export const LinksWrapper = styled.div`
   grid-template-rows: repeat(3, 30px);
   column-gap: 70px;
   padding: 70px 230px 0 100px;
-
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    justify-content: center;
+    justify-items: center;
+    padding: 0;
+  }
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     display: flex;
     flex-direction: column;
@@ -87,6 +102,11 @@ export const Link = styled.a`
 export const Span = styled.p`
   color: ${({ theme }) => theme.color.White};
   margin-left: -90px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    margin-left: 0;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     margin-left: -30px;
   }

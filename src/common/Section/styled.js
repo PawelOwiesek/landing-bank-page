@@ -4,9 +4,13 @@ export const Container = styled.div`
   background: linear-gradient(184deg, #ffffff0d, #fff);
   padding: 0 0 70px 100px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    padding: 10px;
+    text-align: center;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     padding: 0;
-    text-align: center;
   }
 `;
 

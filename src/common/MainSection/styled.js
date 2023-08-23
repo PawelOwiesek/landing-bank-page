@@ -10,6 +10,11 @@ export const Container = styled.div`
   position: relative;
   height: 580px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    display: flex;
+    flex-direction: column;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     display: flex;
     flex-direction: column;
@@ -24,6 +29,14 @@ export const Content = styled.div`
   margin-left: 100px;
   width: 400px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    margin-left: 0;
+    width: auto;
+    margin-top: 250px;
+    text-align: center;
+    justify-content: center;
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     margin-left: 0;
     width: auto;
@@ -35,6 +48,10 @@ export const Content = styled.div`
 export const Title = styled.h1`
   margin-top: 0;
   font-size: 45px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    margin-top: 60px;
+  }
 
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     font-size: 35px;
@@ -55,7 +72,12 @@ export const Intro = styled(bgIntro)`
   height: 840px;
   right: 0;
   position: absolute;
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    margin-top: -350px;
+    height: 650px;
+  }
 `;
+
 export const IntroMobile = styled(mobileIntro)`
   margin-top: -120px;
   right: 0;
@@ -69,10 +91,14 @@ export const PhonesImage = styled.img`
   z-index: 2;
   clip-path: polygon(0% 0, 85% 0%, 85% 100%, 0 100%);
 
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    width: 370px;
+    right: 15px;
+    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     width: 290px;
     margin-top: -110px;
-    right: 15px;
-    clip-path: polygon(0% 0, 100% 0%, 100% 100%, 0 100%);
   }
 `;

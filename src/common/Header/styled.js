@@ -11,7 +11,16 @@ export const NavBar = styled.div`
   background-color: ${({ theme }) => theme.color.White};
   z-index: 3;
   position: relative;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    justify-content: center;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    justify-content: space-around;
+  }
 `;
+
 export const Logo = styled(logo)``;
 
 export const Links = styled.div`

@@ -18,12 +18,16 @@ export const Button = styled.button`
   &:hover {
     transform: scale(1.08);
   }
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
     width: 200px;
     height: 50px;
     align-self: center;
-    margin: 30px;
     font-size: 16px;
     font-weight: 700;
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin: 30px;
   }
 `;

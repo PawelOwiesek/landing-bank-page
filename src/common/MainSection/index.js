@@ -28,7 +28,7 @@ const MainSection = () => {
         src="https://i.postimg.cc/0Nk7Mn7c/image-mockups.png"
         alt="none"
       />
-      {mobile < 767 ? <IntroMobile /> : <Intro />}
+      {mobile <= 767 ? <IntroMobile /> : <Intro />}
     </Container>
   );
 };

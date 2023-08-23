@@ -17,6 +17,10 @@ export const Wrapper = styled.div`
   justify-items: center;
   gap: 20px;
 
+  @media (max-width: ${({ theme }) => theme.breakpoint.ipad}) {
+    grid-template-columns: repeat(2, auto);
+  }
+
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     display: flex;
     flex-direction: column;
