@@ -13,7 +13,7 @@ const MainSection = () => {
   const mobile = window.innerWidth;
 
   return (
-    <Container>
+    <Container id="About">
       <Content>
         <Title> Next generation {<br />} digital banking</Title>
         <Description>

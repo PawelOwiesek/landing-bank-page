@@ -9,7 +9,7 @@ import confetti from "./images/image-confetti.jpg";
 const SubSection = () => {
   return (
     <>
-      <Wrapper>
+      <Wrapper id="Blog">
         <Tile
           icon={<Image src={money} alt="money" />}
           subTitle="By Claire Robinson"
