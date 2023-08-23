@@ -7,10 +7,11 @@ export const theme = {
     LightGrayishBlue: "hsl(220, 16%, 96%)",
     VeryLightGray: "hsl(0, 0%, 98%)",
     White: "hsl(0, 0%, 100%)",
+    Crimson: "hsl(349,86%,50%)",
   },
 
-  breakpoints: {
-    mobile: "375px",
+  breakpoint: {
+    mobile: "320px",
     desktop: "1440px",
   },
 };

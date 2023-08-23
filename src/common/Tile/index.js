@@ -1,9 +1,9 @@
-import { Content, SubTitle } from "./styled";
+import { Content, Link, SubTitle } from "./styled";
 
 const Tile = ({ icon, title, content, subTitle }) => {
   return (
     <div>
-      <p>{icon}</p>
+      <Link>{icon}</Link>
       <SubTitle>{subTitle}</SubTitle>
       <p>{title}</p>
       <Content>{content}</Content>

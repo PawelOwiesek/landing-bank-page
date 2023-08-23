@@ -16,9 +16,27 @@ export const Wrapper = styled.div`
   grid-template-columns: repeat(4, 250px);
   justify-items: center;
   gap: 20px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 `;
 
-export const ApiIcon = styled(apiIcon)``;
-export const BudgetIcon = styled(budgetIcon)``;
-export const OnBoardingIcon = styled(onBoardIcon)``;
-export const OnlineIcon = styled(onlineIcon)``;
+const iconStyles = `
+  transition-duration: 1s;
+  &:hover{
+    transform: scale(1.1);
+  }
+`;
+
+const StyledIcon = styled.svg`
+  ${iconStyles}
+`;
+
+export const ApiIcon = styled(StyledIcon).attrs({ as: apiIcon })``;
+export const BudgetIcon = styled(StyledIcon).attrs({ as: budgetIcon })``;
+export const OnBoardingIcon = styled(StyledIcon).attrs({ as: onBoardIcon })``;
+export const OnlineIcon = styled(StyledIcon).attrs({ as: onlineIcon })``;

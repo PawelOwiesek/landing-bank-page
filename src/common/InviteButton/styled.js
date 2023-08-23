@@ -7,6 +7,7 @@ export const Button = styled.button`
   border: none;
   border-radius: 25px;
   font-size: 12px;
+  cursor: pointer;
   background: linear-gradient(
     225deg,
     hsl(202.44deg 100% 46.85% / 87%),
@@ -17,5 +18,11 @@ export const Button = styled.button`
 
   &:hover {
     transform: scale(1.08);
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    width: 200px;
+    height: 50px;
+    align-self: center;
+    margin: 50px;
   }
 `;

@@ -6,9 +6,12 @@ import {
   Title,
   PhonesImage,
   Description,
+  IntroMobile,
 } from "./styled";
 
 const MainSection = () => {
+  const mobile = window.innerWidth;
+
   return (
     <Container>
       <Content>
@@ -25,7 +28,7 @@ const MainSection = () => {
         src="https://i.postimg.cc/0Nk7Mn7c/image-mockups.png"
         alt="none"
       />
-      <Intro />
+      {mobile < 767 ? <IntroMobile /> : <Intro />}
     </Container>
   );
 };

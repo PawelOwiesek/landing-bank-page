@@ -10,6 +10,11 @@ export const Container = styled.div`
   background-color: ${({ theme }) => theme.color.DarkBlue};
   display: grid;
   grid-template-columns: auto auto 1fr;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    display: flex;
+    flex-direction: column;
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -17,6 +22,11 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: space-around;
   margin: 50px 0 30px 100px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    align-items: center;
+    margin: 50px 0 30px 0;
+  }
 `;
 
 export const LinksWrapper = styled.div`
@@ -25,39 +35,59 @@ export const LinksWrapper = styled.div`
   grid-template-rows: repeat(3, 30px);
   column-gap: 70px;
   padding: 70px 230px 0 100px;
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+  }
 `;
+
 export const Logo = styled(logo)`
   color: ${({ theme }) => theme.color.White};
   margin-bottom: 50px;
 `;
-export const FacebookIcon = styled(facebook)`
+
+const iconStyles = `
+  cursor: pointer;
   width: 40px;
   height: 40px;
+  transition-duration: 0.5s;
+  &:hover{
+    transform: scale(1.4);
+  }
 `;
-export const InstagramIcon = styled(instagram)`
-  width: 40px;
-  height: 40px;
+
+const StyledIcon = styled.svg`
+  ${iconStyles}
 `;
-export const PinterestIcon = styled(pinterest)`
-  width: 40px;
-  height: 40px;
-`;
-export const TwitterIcon = styled(twitter)`
-  width: 40px;
-  height: 40px;
-`;
-export const YoutubeIcon = styled(youtube)`
-  width: 40px;
-  height: 40px;
-`;
+
+export const FacebookIcon = styled(StyledIcon).attrs({ as: facebook })``;
+export const InstagramIcon = styled(StyledIcon).attrs({ as: instagram })``;
+export const PinterestIcon = styled(StyledIcon).attrs({ as: pinterest })``;
+export const TwitterIcon = styled(StyledIcon).attrs({ as: twitter })``;
+export const YoutubeIcon = styled(StyledIcon).attrs({ as: youtube })``;
 
 export const Link = styled.a`
   text-decoration-line: none;
   color: ${({ theme }) => theme.color.White};
   font-size: 12px;
+  cursor: pointer;
+  &:hover {
+    color: ${({ theme }) => theme.color.Crimson};
+  }
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    font-size: 20px;
+    font-weight: bold;
+  }
 `;
 
 export const Span = styled.p`
   color: ${({ theme }) => theme.color.White};
   margin-left: -90px;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin-left: -30px;
+  }
 `;
