@@ -1,5 +1,9 @@
 # Getting Started with Create React App
+## Desktop Version
+<img src="public\images\Screenshot 2023-08-23 115937.png"/>
 
+## Mobile Version
+<img src="public\images\mobile version.png"/>
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
