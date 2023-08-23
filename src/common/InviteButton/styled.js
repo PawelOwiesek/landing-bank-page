@@ -24,5 +24,7 @@ export const Button = styled.button`
     height: 50px;
     align-self: center;
     margin: 30px;
+    font-size: 16px;
+    font-weight: 700;
   }
 `;
