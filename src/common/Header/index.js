@@ -1,4 +1,4 @@
-import { Logo, NavBar, Links, Link, Kebab } from "./styled";
+import { Logo, NavBar, Links, Link, Kebab, HamburgerIcon } from "./styled";
 import { Button } from "../InviteButton/styled";
 const Header = () => {
   const mobile = window.innerWidth;
@@ -8,7 +8,7 @@ const Header = () => {
       <Logo />
 
       {mobile < 767 ? (
-        <Kebab />
+        <HamburgerIcon />
       ) : (
         <Links>
           <Link href="#Home">Home</Link>
