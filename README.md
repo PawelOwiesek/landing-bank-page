@@ -1,5 +1,6 @@
 ## https://pawelowiesek.github.io/landing-bank-page/
-
+## Mobile GIF
+![](https://github.com/PawelOwiesek/landing-bank-page/blob/master/public/images/landinPageOnMobile.gif)
 ## Desktop Version
 <img src="public\images\Screenshot 2023-08-23 115937.png"/>
 
