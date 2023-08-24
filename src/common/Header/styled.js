@@ -27,6 +27,7 @@ export const Links = styled.ul`
   padding-left: 0;
   flex-flow: row nowrap;
   font-size: 20px;
+  list-style-type: none;
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
     flex-flow: column nowrap;
     background-color: ${({ theme }) => theme.color.GrayishBlue};
@@ -39,6 +40,12 @@ export const Links = styled.ul`
     right: 0;
     height: 100vh;
     width: 120px;
+  }
+`;
+
+export const Item = styled.li`
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    margin-top: 10px;
   }
 `;
 

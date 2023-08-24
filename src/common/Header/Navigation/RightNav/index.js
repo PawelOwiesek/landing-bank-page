@@ -1,13 +1,23 @@
-import { Link, Links } from "../../styled";
+import { Item, Link, Links } from "../../styled";
 
 const RightNav = ({ open }) => {
   return (
     <Links open={open}>
-      <Link href="#Home">Home</Link>
-      <Link href="#About">About</Link>
-      <Link href="#Contact">Contact</Link>
-      <Link href="#Blog">Blog</Link>
-      <Link href="#Careers">Careers</Link>
+      <Item>
+        <Link href="#Home">Home</Link>
+      </Item>
+      <Item>
+        <Link href="#About">About</Link>
+      </Item>
+      <Item>
+        <Link href="#Contact">Contact</Link>
+      </Item>
+      <Item>
+        <Link href="#Blog">Blog</Link>
+      </Item>
+      <Item>
+        <Link href="#Careers">Careers</Link>
+      </Item>
     </Links>
   );
 };
