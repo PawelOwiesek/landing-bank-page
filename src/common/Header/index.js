@@ -1,23 +1,14 @@
-import { Logo, NavBar, Links, Link, Kebab, HamburgerIcon } from "./styled";
+import { Logo, NavBar } from "./styled";
 import { Button } from "../InviteButton/styled";
+import Burger from "./Navigation/Burger";
+
 const Header = () => {
   const mobile = window.innerWidth;
 
   return (
-    <NavBar>
+    <NavBar id="Home">
       <Logo />
-
-      {mobile < 767 ? (
-        <HamburgerIcon />
-      ) : (
-        <Links>
-          <Link href="#Home">Home</Link>
-          <Link href="#About">About</Link>
-          <Link href="#Contact">Contact</Link>
-          <Link href="#Blog">Blog</Link>
-          <Link href="#Careers">Careers</Link>
-        </Links>
-      )}
+      <Burger />
       {mobile < 767 ? null : <Button>Request Invite</Button>}
     </NavBar>
   );

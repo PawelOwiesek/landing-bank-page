@@ -1,6 +1,5 @@
 import { styled } from "styled-components";
 import { ReactComponent as logo } from "./images/logo.svg";
-import { ReactComponent as hamburger } from "./images/icon-hamburger.svg";
 
 export const NavBar = styled.div`
   display: flex;
@@ -24,18 +23,21 @@ export const NavBar = styled.div`
 export const Logo = styled(logo)``;
 
 export const Links = styled.div`
+  display: flex;
+  flex-flow: row nowrap;
+  font-size: 20px;
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-  }
-`;
-
-export const HamburgerIcon = styled(hamburger)`
-  display: none;
-  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
-    display: flex;
-    width: 30px;
+    flex-flow: column nowrap;
+    background-color: ${({ theme }) => theme.color.GrayishBlue};
+    transition: transform 0.3s ease-in-out;
+    transform: ${({ open }) => (open ? "translateX(0)" : "translateX(100%)")};
+    padding-top: 30px;
+    margin-top: 70px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    width: 150px;
   }
 `;
 
@@ -43,10 +45,22 @@ export const Link = styled.a`
   margin: 0 15px;
   color: ${({ theme }) => theme.color.GrayishBlue};
   text-decoration: none;
+  border-bottom: 4px solid ${({ theme }) => theme.color.White};
   cursor: pointer;
+  padding: 25px 0 18px;
 
   &:hover {
-    padding-bottom: 25px;
     border-bottom: 4px solid ${({ theme }) => theme.color.LimeGreen};
+    @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+      border: none;
+      color: ${({ theme }) => theme.color.Crimson};
+    }
+  }
+
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    color: ${({ theme }) => theme.color.White};
+    margin: 10px;
+    border: none;
+    padding: 0;
   }
 `;
