@@ -37,7 +37,7 @@ export const Links = styled.div`
     top: 0;
     right: 0;
     height: 100vh;
-    width: 150px;
+    width: 120px;
   }
 `;
 
