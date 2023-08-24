@@ -22,8 +22,9 @@ export const NavBar = styled.div`
 
 export const Logo = styled(logo)``;
 
-export const Links = styled.div`
+export const Links = styled.ul`
   display: flex;
+  padding-left: 0;
   flex-flow: row nowrap;
   font-size: 20px;
   @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
