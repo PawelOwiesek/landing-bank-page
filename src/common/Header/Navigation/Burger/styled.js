@@ -5,7 +5,7 @@ export const StyledBurger = styled.div`
   height: 30px;
   position: fixed;
   top: 20px;
-  right: 20px;
+  right: 5px;
   display: flex;
   justify-content: space-around;
   flex-flow: column nowrap;
@@ -18,11 +18,11 @@ export const StyledBurger = styled.div`
 `;
 
 export const Strip = styled.div`
-  width: 40px;
+  width: 30px;
   height: 4px;
   background-color: ${({ open }) => (open ? "blue" : "green")};
   border-radius: 999px;
-  transform-origin: 6px;
+  transform-origin: 1px;
   transition: all 0.3s linear;
 
   &:nth-child(1) {
