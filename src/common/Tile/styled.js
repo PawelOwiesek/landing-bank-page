@@ -6,6 +6,10 @@ export const SubTitle = styled.p`
 export const Content = styled.p`
   color: ${({ theme }) => theme.color.GrayishBlue};
   margin: 30px 0;
+  @media (max-width: ${({ theme }) => theme.breakpoint.mobile}) {
+    font-size: 16px;
+    padding: 5px;
+  }
 `;
 
 export const Link = styled.a`
