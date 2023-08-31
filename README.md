@@ -11,6 +11,25 @@
 <h3>Mobile Version</h3> 
 <img src="public\images\mobile version.png"/>
 <hr/>
+<p>The website  is a landing page for a banking application. It's a web page designed to capture users' attention and encourage them to use the provided application. Here's a brief overview of the content on this page:
+
+1. **Header and Title**: At the top of the page, there's a large header with the bank's name and a slogan, aiming to grab visitors' attention.
+
+2. **Illustrations**: The page features various illustrations related to banking, visually presenting the theme of the application.
+
+3. **App Description**: There's a section describing the main features and benefits of the banking application. You can learn about the services the app offers and the advantages it brings to users.
+
+4. **Benefits and Features**: Another section lists specific benefits of using the application. These can include elements like ease of use, fast transactions, mobile accessibility, and more.
+
+5. **Fonts and Colors**: The page uses specific fonts and colors to create a consistent and visually appealing aesthetic.
+
+6. **Registration Form**: The "Sign Up Now" button leads to a registration form, encouraging users to sign up for the application.
+
+7. **Customer Testimonials**: In some cases, the page might include testimonials or reviews from satisfied customers, aiming to build trust.
+
+8. **Contact and Customer Support**: At the bottom of the page, there might be a section with contact information and links to customer support, which is important for potential users with questions.
+
+In summary, this page is created to attract new users to the banking application by presenting its key features, advantages, and functions in an appealing way.</p>
 
 <p>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
