@@ -1,12 +1,18 @@
-## https://pawelowiesek.github.io/landing-bank-page/
-## Mobile GIF
-![](https://github.com/PawelOwiesek/landing-bank-page/blob/master/public/images/landinPageOnMobile.gif)
-## Desktop Version
+
+<div align=center> 
+  <h1>Landing bank page</h1>
+<h2>https://pawelowiesek.github.io/landing-bank-page/</h2> 
+<h3>Mobile GIF</h3> 
+
+<img width=400px src="https://github.com/PawelOwiesek/landing-bank-page/blob/master/public/images/landinPageOnMobile.gif"/>
+<h3>Desktop Version</h3> 
 <img src="public\images\Screenshot 2023-08-23 115937.png"/>
 
-## Mobile Version
+<h3>Mobile Version</h3> 
 <img src="public\images\mobile version.png"/>
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<hr/>
+
+<p>This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
@@ -38,4 +44,5 @@ If you aren't satisfied with the build tool and configuration choices, you can `
 
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.</p>
+</div>
